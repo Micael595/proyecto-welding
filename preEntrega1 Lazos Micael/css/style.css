@@ -1,0 +1,192 @@
+@import url('https://css.gg/log-in.css');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.triangulo{
+    width: 0px;
+    height: 0px;
+    border-bottom: 80px solid blueviolet;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/background.png);
+    
+    background-size: 100%;
+    background-blend-mode: darken;
+    
+}
+.ingresar{
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    margin-top: -60px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.gg-log-in{
+    color: white;
+    margin-top: -20px;
+    margin-right: 50px;
+    margin-left: 97%;
+    margin-bottom: 100px;
+}
+.ar{
+    color: black;
+    font-size: 20px;
+    margin-left: 36px;
+    margin-top: -55px;
+}
+.inox{
+    color: black;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+.navBar{
+
+    display: flex;
+    justify-content:end;
+    gap: 10px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 45px;
+
+}
+.navBar ul{
+    display: flex;
+}
+.navBar a{
+    text-decoration: none;
+    color:white;
+}
+.ar a{
+    text-decoration: none;
+    color:black
+}
+.inox a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-self: center;
+}
+
+header div nav{
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 50px;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.img1 {
+    display: flex;
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    
+}
+.img2{
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+
+}
+.img3{
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+
+}
+
+.footer1{
+    display: flex;
+    justify-content:right;
+    
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.ubicacion{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.instagram {
+    width: 30px;
+    height: 30px;
+    text-decoration: white;
+}
+.escapes{
+    height: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 180px;
+    
+
+}
+.esc1{
+    display: flex;
+    justify-content: right;
+    width: 150px;
+    height: 120px;
+    margin: 30px;
+}
+.esc2{
+    display: flex;
+    justify-content:right;
+    width: 150px;
+    height: 120px;
+    margin: 30px;
+}
+.escapes2{
+    height: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+    margin-left: 880px;
+
+}
+.esc11{
+    display: flex;
+    justify-content: right;
+    width: 150px;
+    height: 120px;
+    margin: 30px;
+    
+}
+.esc22{
+    display: flex;
+    justify-content:right;
+    width: 150px;
+    height: 120px;
+    margin: 30px;
+}
+.formulario{
+    color: white;
+}
