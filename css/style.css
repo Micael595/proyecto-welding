@@ -26,6 +26,23 @@
     
 }
 
+.box-principal{
+    display: grid;
+}
+
+.box-header{
+    grid-row: 1;
+}
+
+.box-main{
+    grid-row: 2;
+
+}
+
+.box-footer{
+    grid-row: 3;
+}
+
 .ingresar{
     font-size: 20px;
     text-align: right;
@@ -67,6 +84,7 @@
     color: white;
     text-decoration: none;
     margin-bottom: 45px;
+    margin-top: -30px;
 
 }
 
