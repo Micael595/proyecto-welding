@@ -24,20 +24,64 @@
     background-size: 100%;
     background-blend-mode: darken;
     
+    
 }
 
 .box-principal{
     display: grid;
 }
-
+a
 .box-header{
     grid-row: 1;
 }
 
+/*aqui vamos a crear el main*/
+
+
 .box-main{
-    grid-row: 2;
+    
+    display: grid;
+    grid-template-areas:
+    "porsche porsche porsche porsche-txt porsche-txt"
+    "porsche porsche porsche porsche-txt porsche-txt"
+    "lambo-txt lambo-txt lambo lambo lambo"
+    "lambo-txt lambo-txt lambo lambo lambo";
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
 
 }
+.porsche{
+    grid-area: porsche;
+    width: 550px;
+    height: 250px;
+    grid-gap: 20px;
+    border-radius: 15%;
+}
+.lambo{
+    grid-area: lambo;
+    height: 250px;
+    width: 550px;
+    border-radius: 15%;
+}
+.porsche-txt{
+    grid-area: porsche-txt;
+    font-size: 50px;
+    color: white;
+    
+}
+.lambo-txt{
+    grid-area: lambo-txt;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    
+
+}
+
+
+/*creamos el footer*/
 
 .box-footer{
     grid-row: 3;
@@ -170,13 +214,12 @@ h1{
 .facebook {
     width: 30px;
     height: 30px;
-    color: white;
+    
 }
 
 .instagram {
     width: 30px;
     height: 30px;
-    text-decoration: white;
 }
 
 .escapes{
