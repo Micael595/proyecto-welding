@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     
 </head>
-<body class="background box-principal">
+<body class="background">
     
         <header>
                 <div>
@@ -26,8 +26,10 @@
                     </a>
                 </div>
                 <div><i class="gg-log-in"></i></div>
-                <div>
-                    <nav>
+                <div class="navigation">
+                    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+                    <label id="hamburger-menu" for="hamburger-input">
+                    <nav id="sidebar-menu">
                         <ul class="navBar">
                             <li class="navBar"><a href="./pages/store.html">STORE</a></li>
                             <li class="navBar"><a href="./pages/trabajos.html">TRABAJOS</a></li>
@@ -35,6 +37,8 @@
                             <li class="navBar"><a href="./pages/contacto.html">CONTACTO</a></li>
                         </ul>
                     </nav>
+                    </label>
+                    <div class="overlay"></div>
                 </div>
             </header>
             <main>
