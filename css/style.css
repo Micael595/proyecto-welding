@@ -85,12 +85,14 @@
     }
     
     #hamburger-menu {
+        justify-content: center;
         position:fixed;
-        top: -160px;
-        left: 280px;
+        margin-bottom: 200px;
+        top: -165px;
+        left: 100px;
         width: 50px;
         height: 50px;
-        display: none;
+        display:flex;
         border: none;
         padding: 0px;
         margin: 200px;
