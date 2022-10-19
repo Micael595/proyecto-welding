@@ -27,13 +27,6 @@
     
 }
 
-.box-principal{
-    display: grid;
-}
-a
-.box-header{
-    grid-row: 1;
-}
 
 /*aqui vamos a crear el main*/
 
@@ -79,13 +72,98 @@ a
     
 
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px 30px;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 105px;
+}
 
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+.worker1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 1/2;
+    margin-left: 100px;
+}
+.worker2{
+    display: flex;
+    height: 250px;
+    width:250px;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row: 2/2;
+    margin-left: 100px;
+}
+.info1{
+    
+    display:flex;
+    height: 300px;
+    width:inherit;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1/2;
+    color: white;
+    align-content: flex-start;
+}
+.info2{
+    display: flex;
+    height: 300px;
+    width: inherit;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 2/2;
+    color: white;
+    align-content: flex-start;
+
+}
+.ex-1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    grid-column: 2/6;
+    grid-row:1/2;
+    border-radius: 30%;
+}
+.ex-2{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    grid-column: 4/6;
+    grid-row:1/2;
+    border-radius: 30%;
+}
+.ex-3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    grid-column: 2/6;
+    grid-row:2/2;
+    border-radius: 30%;
+}
+.ex-4{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    grid-column: 4/6;
+    grid-row:2/2;
+    border-radius: 30%;
+}
 
 /*creamos el footer*/
 
-.box-footer{
-    grid-row: 3;
-}
 
 .ingresar{
     font-size: 20px;
@@ -118,6 +196,15 @@ a
     margin-left: 45px;
     margin-top: -5px;
 }
+.ar a{
+    text-decoration: none;
+    color:black
+}
+
+.inox a{
+    text-decoration: none;
+    color: black;
+}
 
 .navBar{
 
@@ -141,16 +228,6 @@ a
     color:white;
 }
 
-.ar a{
-    text-decoration: none;
-    color:black
-}
-
-.inox a{
-    text-decoration: none;
-    color: black;
-}
-
 h1{
     display: flex;
     justify-content: center;
@@ -172,6 +249,7 @@ h1{
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 100px;
 }
 
 .img1 {
@@ -201,7 +279,7 @@ h1{
     justify-content:right;
     
     color: white;
-    margin: 20px;
+    margin: 0px;
     margin-top: 50px;
     margin-right: 50px;
 }
