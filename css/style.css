@@ -264,32 +264,32 @@
         grid-template-columns: repeat(6,1fr);
         gap: 10px;
         padding: 5px;
-        margin-top: -20px;
+        margin-top: 50px;
         margin-bottom: -40px;
     }
     .worker1{
         display: flex;
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row: 1/2;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .worker2{
         display: flex;
-        height: 250px;
-        width:250px;
+        height: 200px;
+        width:200px;
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row: 2/2;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .info1{
         
         display:flex;
-        height: 300px;
-        width:inherit;
+        height: 80px;
+        width:100px;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row: 1/2;
@@ -298,8 +298,8 @@
     }
     .info2{
         display: flex;
-        height: 300px;
-        width: inherit;
+        height: 80px;
+        width:100px;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row: 2/2;
