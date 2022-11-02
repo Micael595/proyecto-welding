@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-content: center;
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 30%;
+    margin-bottom: 130px;
+    margin-left: 70px;
+}
+
+.img1 {
+    @extend .box;
+
+}
+
+.img2{
+    @extend .box;
+
+}
+
+.img3{
+    @extend .box;
+
+}

@@ -1,0 +1,39 @@
+.box-main{
+        
+    display: grid;
+    grid-template-areas:
+    "porsche porsche porsche porsche-txt porsche-txt"
+    "porsche porsche porsche porsche-txt porsche-txt"
+    "lambo-txt lambo-txt lambo lambo lambo"
+    "lambo-txt lambo-txt lambo lambo lambo";
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+
+}
+.porsche{
+    grid-area: porsche;
+    width: 550px;
+    height: 250px;
+    grid-gap: 20px;
+    border-radius: 15%;
+}
+.lambo{
+    grid-area: lambo;
+    height: 250px;
+    width: 550px;
+    border-radius: 15%;
+}
+.porsche-txt{
+    grid-area: porsche-txt;
+    font-size: 50px;
+    color: white;
+    
+}
+.lambo-txt{
+    grid-area: lambo-txt;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    }
