@@ -1,27 +1,16 @@
 .box{
     display: flex;
-    gap: 5px;
-    justify-content: flex-start;
+    gap: 7%;
+    justify-content: center;
     align-content: center;
-    width: 350px;
+    width: 100vw;
     height: 250px;
     margin: 30px;
-    border-radius: 30%;
+
     margin-bottom: 130px;
-    margin-left: 70px;
 }
 
-.img1 {
-    @extend .box;
-
-}
-
-.img2{
-    @extend .box;
-
-}
-
-.img3{
-    @extend .box;
-
+.imgtig{
+    border-radius: 30%;
+    width: 25vw;
 }

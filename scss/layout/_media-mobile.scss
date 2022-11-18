@@ -77,17 +77,17 @@
     }
     
     #hamburger-menu {
-        justify-content: center;
-        position:fixed;
+        justify-content:center;
+        position: fixed;
         margin-bottom: 200px;
-        top: -165px;
-        left: 100px;
-        width: 50px;
-        height: 50px;
+        top: -28vw;
+        left: 50vw;
+        width: 8vw;
+        height: 8vw;
         display:flex;
         border: none;
         padding: 0px;
-        margin: 200px;
+        margin: 150px;
         font-family: 'Cabin', Sans-serif;
         background: linear-gradient(
         to bottom, 
@@ -202,6 +202,12 @@
         font-size: 20px;
         margin-top: 70px;
     }
+    .navBar{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
     
     
     /*aqui vamos a crear el main*/
@@ -251,55 +257,58 @@
     }
     .grid-container2{
         display: grid;
-        grid-template-columns: repeat(6,1fr);
         gap: 10px;
         padding: 5px;
         margin-top: 50px;
-        margin-bottom: -40px;
+
     }
     .worker1{
         display: flex;
         height: 200px;
         width: 200px;
-        grid-column-start: 4;
-        grid-column-end: 6;
-        grid-row: 1/2;
-        margin-left: 50px;
+        grid-column:1;
+        grid-row: 1;
+        margin-left: 100px;
+        border-radius: 15%;
     }
     .worker2{
         display: flex;
         height: 200px;
         width:200px;
-        grid-column-start: 4;
-        grid-column-end: 6;
-        grid-row: 2/2;
-        margin-left: 50px;
+        grid-column: 1;
+        grid-row:3;
+        margin-left: 100px;
+        border-radius: 15%;
     }
     .info1{
         
         display:flex;
-        height: 80px;
+        justify-content: center;
+        height: 100px;
         width:100px;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row: 1/2;
+        grid-column:1;
+        grid-row: 2;
         color: white;
         align-content: flex-start;
+        margin: 30px;
+        margin-left: 150px;
     }
     .info2{
         display: flex;
-        height: 80px;
+        justify-content: center;
+        height: 100px;
         width:100px;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row: 2/2;
+        grid-column:1;
+        grid-row: 4;
         color: white;
         align-content: flex-start;
+        margin: 30px;
+        margin-left: 150px;
     
     }
     .grid-container{
         display: grid;
-        grid-template-columns: repeat(6,1fr);
+
         gap: 20px 30px;
         padding: 5px;
         margin-top: 80px;
@@ -309,9 +318,14 @@
     }
     .grid-container p{
         grid-column: 2;
+
         
     }
-    .description1{
+    .description{
+        width: 30vw;
+        height: 15vh;
+    }
+    .d1{
         text-align: center;
         color: white;
         grid-column: 2;
@@ -324,7 +338,7 @@
         
 
     }
-    .description2{
+    .d2{
         text-align: center;
         color: white;
         grid-column: 2;
@@ -336,7 +350,7 @@
         border-color: white;
         
     }
-    .description3{
+    .d3{
         text-align: center;
         color: white;
         grid-column: 2;
@@ -348,7 +362,7 @@
         border-color: white;
         
     }
-    .description4{
+    .d4{
         text-align: center;
         color: white;
         grid-column: 2;
@@ -409,10 +423,11 @@
     .box{
         display:flex;
         align-items: center;
-        margin-top: 30px;
+        justify-content: center;
         flex-direction: column;
-        
-        margin-bottom: 100px;
+        margin:5px;
+        margin-bottom: 15vh;
+    
     }
     
     .img1 {

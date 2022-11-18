@@ -25,23 +25,30 @@
     margin-left: 100px;
 }
 .info1{
-    
     display:flex;
-    height: 300px;
+    align-items: center;
+    height: 120px;
     width:inherit;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 1/2;
     color: white;
     align-content: flex-start;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 15%;
 }
 .info2{
     display: flex;
-    height: 300px;
+    align-items: center;
+    height: 120px;
     width: inherit;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 2/2;
     color: white;
     align-content: flex-start;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 15%;
     }

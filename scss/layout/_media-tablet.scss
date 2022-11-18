@@ -69,18 +69,19 @@
     
     .navBar{
         display: flex;
-        justify-content:end;
+        justify-content:center;
         gap: 10px;
         margin-right: 20px;
         color: white;
         text-decoration: none;
         margin-bottom: 45px;
-        margin-top: -30px;
+        margin-top: 10px;
     
     }
     
-    .navBar ul{
+    .navBar ul li{
         display: flex;
+        align-content: center;
     }
     
     .navBar a{
@@ -271,32 +272,32 @@
     }
     .ex-1{
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 12vw;
+        height: 12vw;
         grid-column: 2/6;
         grid-row:1/2;
         border-radius: 30%;
     }
     .ex-2{
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 12vw;
+        height: 12vw;
         grid-column: 4/6;
         grid-row:1/2;
         border-radius: 30%;
     }
     .ex-3{
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 12vw;
+        height: 12vw;
         grid-column: 2/6;
         grid-row:2/2;
         border-radius: 30%;
     }
     .ex-4{
         display: flex;
-        width: 200px;
-        height: 200px;
+        width: 12vw;
+        height: 12vw;
         grid-column: 4/6;
         grid-row:2/2;
         border-radius: 30%;
